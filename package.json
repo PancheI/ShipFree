@@ -4,9 +4,9 @@
   "private": true,
   "packageManager": "bun@1.2.20",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api.js && next start",
     "format": "biome format --write",
     "typecheck": "tsc --noEmit --pretty",
     "lint": "biome lint",
